@@ -6,6 +6,9 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
+  logout() {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(private router:Router,private http:HttpClient) { }
 
